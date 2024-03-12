@@ -26,7 +26,9 @@ while True:
     else:
         c.close()
         break
-###SERVER
+~~~
+### SERVER
+~~~
 import socket
 s=socket.socket()
 s.connect(('localhost',8000))
@@ -36,7 +38,7 @@ while True:
 ~~~
 
 ## OUTPUT
-###CLIENT 
+### CLIENT 
 ![Screenshot 2024-03-12 132655](https://github.com/Thirumalai23013035/2a_Stop_and_Wait_Protocol/assets/153185249/09da8bd5-f02d-4a7e-9150-340ea070633f)
 ### SERVER
 ![Screenshot 2024-03-12 132714](https://github.com/Thirumalai23013035/2a_Stop_and_Wait_Protocol/assets/153185249/1e979fb5-b29e-4bc1-9f99-dc14fd208bbd)
